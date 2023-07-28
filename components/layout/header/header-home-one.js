@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useState, useContext } from "react";
 import {
   BlogDropdownMenus,
@@ -12,8 +13,11 @@ import NavItem from "../navbar/nav-item";
 import Navbar from "../navbar/navbar";
 import useScroll from "./../../../hooks/useScroll";
 import { AuthContext } from "../../../context/auth_context";
+import NavItemTwo from "../navbar/nav-itemTwo";
 
 export default function HeaderHomeThree() {
+  const router = useRouter();
+
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { curUser, Logout } = useContext(AuthContext);
 
@@ -64,24 +68,27 @@ export default function HeaderHomeThree() {
 
               <Navbar>
                 <Link href={"/"}>
-                  <NavItem navItemText="Home" />
+                  <NavItemTwo navItemText="Home" />
                 </Link>
                 {/* <NavItem navItemText="Demo" menuItems={DemoDropdownMenus} /> */}
-                <NavItem navItemText="News" menuItems={BlogDropdownMenus} />
+                <Link href={"/createblog"}>
+                  <NavItemTwo navItemText="News" />
+                </Link>
+
                 <NavItem
                   navItemText="Catagories"
                   menuItems={ElementsMegaMenu}
                   // megaMenu
                 />
-                <NavItem
-                  navItemText="Pricing Plans
+                <Link href={"/pricing-two"}>
+                  <NavItemTwo
+                    navItemText="Pricing Plans
 "
-                  menuItems={PagesDropdownMenus}
-                />
-                <NavItem
-                  navItemText="Contact Us"
-                  menuItems={ContactDropdownMenus}
-                />
+                  />
+                </Link>
+                <Link href={"/contact-dark"}>
+                  <NavItemTwo navItemText="Contact Us" />
+                </Link>
               </Navbar>
             </nav>
           </div>

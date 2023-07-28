@@ -13,6 +13,7 @@ import NavItem from "../navbar/nav-item";
 import Navbar from "../navbar/navbar";
 import useScroll from "./../../../hooks/useScroll";
 import { AuthContext } from "../../../context/auth_context";
+import NavItemTwo from "../navbar/nav-itemTwo";
 
 export default function HeaderHomeThree() {
   const router = useRouter();
@@ -64,30 +65,30 @@ export default function HeaderHomeThree() {
                   &times;
                 </div>
               </div>
-              {/* onClick=
-              {() => {
-                router.push("/index");
-              }} */}
+
               <Navbar>
                 <Link href={"/"}>
-                  <NavItem navItemText="Home" />
+                  <NavItemTwo navItemText="Home" />
                 </Link>
                 {/* <NavItem navItemText="Demo" menuItems={DemoDropdownMenus} /> */}
-                <NavItem navItemText="News" menuItems={BlogDropdownMenus} />
+                <Link href={"/createblog"}>
+                  <NavItemTwo navItemText="News" />
+                </Link>
+
                 <NavItem
                   navItemText="Catagories"
                   menuItems={ElementsMegaMenu}
                   // megaMenu
                 />
-                <NavItem
-                  navItemText="Pricing Plans
+                <Link href={"/pricing-two"}>
+                  <NavItemTwo
+                    navItemText="Pricing Plans
 "
-                  menuItems={PagesDropdownMenus}
-                />
-                <NavItem
-                  navItemText="Contact Us"
-                  menuItems={ContactDropdownMenus}
-                />
+                  />
+                </Link>
+                <Link href={"/contact-dark"}>
+                  <NavItemTwo navItemText="Contact Us" />
+                </Link>
               </Navbar>
             </nav>
           </div>
