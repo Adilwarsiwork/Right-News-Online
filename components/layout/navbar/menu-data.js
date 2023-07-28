@@ -61,77 +61,77 @@ export const PagesDropdownMenus = [
   //     },
   //   ],
   // },
-  {
-    title: "Resources",
-    path: "/blog-dark",
-    submenu: [
-      {
-        title: "Blog & Resources 1",
-        path: "/blog-dark",
-      },
-      {
-        title: "Blog & Resources 2",
-        path: "/blog-dark-sidebar",
-      },
-      // {
-      //   title: "Blog Dark Details",
-      //   path: "/single-blog-dark",
-      // },
-      {
-        title: "Agriculture",
-        path: "/news/agriculture",
-      },
-      {
-        title: "Sports",
-        path: "/news/sports",
-      },
-      {
-        title: "Users",
-        path: "/news/users",
-      },
-    ],
-  },
-  {
-    title: "Service",
-    path: "/#",
-    submenu: [
-      {
-        title: "Active Users",
-        path: "/users",
-      },
-      {
-        title: "Transaction History",
-        path: "/transactions",
-      },
-      // {
-      //   title: "Single Service",
-      //   path: "/single-service",
-      // },
-    ],
-  },
-  {
-    title: "Team",
-    //team
-    path: "/team-light",
-    // submenu: [
-    // {
-    //   title: "Team Dark",
-    //   path: "/team-dark",
-    // },
-    // {
-    //   title: "Team Light 01",
-    //   path: "/team",
-    // },
-    // {
-    //   title: "Team Light 02",
-    //   path: "/team-light",
-    // },
-    // {
-    //   title: "Single Team",
-    //   path: "/single-team",
-    // },
-    // ],
-  },
+  // {
+  //   title: "Resources",
+  //   path: "/blog-dark",
+  //   submenu: [
+  //     {
+  //       title: "Blog & Resources 1",
+  //       path: "/blog-dark",
+  //     },
+  //     {
+  //       title: "Blog & Resources 2",
+  //       path: "/blog-dark-sidebar",
+  //     },
+  //     // {
+  //     //   title: "Blog Dark Details",
+  //     //   path: "/single-blog-dark",
+  //     // },
+  //     {
+  //       title: "Agriculture",
+  //       path: "/news/agriculture",
+  //     },
+  //     {
+  //       title: "Sports",
+  //       path: "/news/sports",
+  //     },
+  //     {
+  //       title: "Users",
+  //       path: "/news/users",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Service",
+  //   path: "/#",
+  //   submenu: [
+  //     {
+  //       title: "Active Users",
+  //       path: "/users",
+  //     },
+  //     {
+  //       title: "Transaction History",
+  //       path: "/transactions",
+  //     },
+  //     // {
+  //     //   title: "Single Service",
+  //     //   path: "/single-service",
+  //     // },
+  //   ],
+  // },
+  // {
+  //   title: "Team",
+  //   //team
+  //   path: "/team-light",
+  //   // submenu: [
+  //   // {
+  //   //   title: "Team Dark",
+  //   //   path: "/team-dark",
+  //   // },
+  //   // {
+  //   //   title: "Team Light 01",
+  //   //   path: "/team",
+  //   // },
+  //   // {
+  //   //   title: "Team Light 02",
+  //   //   path: "/team-light",
+  //   // },
+  //   // {
+  //   //   title: "Single Team",
+  //   //   path: "/single-team",
+  //   // },
+  //   // ],
+  // },
   {
     title: "Pricing",
     path: "/pricing",
@@ -164,29 +164,29 @@ export const PagesDropdownMenus = [
   //     },
   //   ],
   // },
-  {
-    title: "Portfolio",
-    // portfolio
-    path: "/portfolio-one",
-    // submenu: [
-    //   {
-    //     title: "Portfolio Classic",
-    //     path: "/portfolio-one",
-    //   },
-    //   {
-    //     title: "Portfolio-Minimal",
-    //     path: "/portfolio-two",
-    //   },
-    //   {
-    //     title: "Portfolio-Modern",
-    //     path: "/portfolio-three",
-    //   },
-    //   {
-    //     title: "Single Portfolio",
-    //     path: "/single-portfolio",
-    //   },
-    // ],
-  },
+  // {
+  //   title: "Portfolio",
+
+  //   path: "/portfolio-one",
+  // submenu: [
+  //   {
+  //     title: "Portfolio Classic",
+  //     path: "/portfolio-one",
+  //   },
+  //   {
+  //     title: "Portfolio-Minimal",
+  //     path: "/portfolio-two",
+  //   },
+  //   {
+  //     title: "Portfolio-Modern",
+  //     path: "/portfolio-three",
+  //   },
+  //   {
+  //     title: "Single Portfolio",
+  //     path: "/single-portfolio",
+  //   },
+  // ],
+  // },
   // {
   //   title: "Utility",
   //   path: "/utility",
@@ -230,24 +230,20 @@ export const ElementsMegaMenu = [
   //     },
   //   ],
   // },
+
   {
-    title: "Resources",
-    path: "/blog-dark",
-    submenu: [
-      {
-        title: "News & Resources 1",
-        path: "/blog-dark",
-      },
-      {
-        title: "News & Resources 2",
-        path: "/blog-dark-sidebar",
-      },
-      // {
-      //   title: "Blog Dark Details",
-      //   path: "/single-blog-dark",
-      // },
-    ],
+    title: "Agriculture",
+    path: "/news/agriculture",
   },
+  {
+    title: "Sports",
+    path: "/news/sports",
+  },
+  {
+    title: "Users",
+    path: "/news/users",
+  },
+
   // {
   //   title: "Blog Style",
   //   path: "/#",
@@ -306,24 +302,24 @@ export const ElementsMegaMenu = [
   //   ],
   // },
 
-  {
-    title: "Contact Style",
-    path: "/#",
-    submenu: [
-      {
-        title: "Contact Dark",
-        path: "/contact-dark",
-      },
-      {
-        title: "Contact Light 01",
-        path: "/contact",
-      },
-      {
-        title: "Contact Light 02",
-        path: "/contact-light",
-      },
-    ],
-  },
+  // {
+  //   title: "Contact Style",
+  //   path: "/#",
+  //   submenu: [
+  //     {
+  //       title: "Contact Dark",
+  //       path: "/contact-dark",
+  //     },
+  //     {
+  //       title: "Contact Light 01",
+  //       path: "/contact",
+  //     },
+  //     {
+  //       title: "Contact Light 02",
+  //       path: "/contact-light",
+  //     },
+  //   ],
+  // },
 ];
 
 export const BlogDropdownMenus = [
@@ -343,14 +339,14 @@ export const BlogDropdownMenus = [
   //   title: "Blog Dark Details",
   //   path: "/single-blog-dark",
   // },
-  {
-    title: "News Light",
-    path: "/blog-light",
-  },
-  {
-    title: "News Light Sidebar",
-    path: "/blog",
-  },
+  // {
+  //   title: "News Light",
+  //   path: "/blog-light",
+  // },
+  // {
+  //   title: "News Light Sidebar",
+  //   path: "/blog",
+  // },
   // {
   //   title: "News Light Sidebar 02",
   //   path: "/blog-light-sidebar",
@@ -362,6 +358,15 @@ export const BlogDropdownMenus = [
 ];
 
 export const ContactDropdownMenus = [
+  {
+    title: "Active Users",
+    path: "/users",
+  },
+  {
+    title: "Transaction History",
+    path: "/transactions",
+  },
+
   {
     title: "Contact Dark",
     path: "/contact-dark",

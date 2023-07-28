@@ -268,7 +268,6 @@ export default function PricingSectionTwo(props) {
                 }
               >
                 <button id="SilverGoldBtn1" className="fugu-pricing-btn Btn">
-                  {" "}
                   SUBSCRIBE NOW
                 </button>
               </div>
