@@ -17,9 +17,9 @@ export default function NavItemTwo({
 
   return (
     <li className={`nav-item ${menuItems ? "nav-item-has-children" : ""}`}>
-      <a href="#" className="nav-link-item drop-trigger" onClick={handleClick}>
+      <span className="nav-link-item drop-trigger" onClick={handleClick}>
         {navItemText}
-      </a>
+      </span>
 
       {!megaMenu ? (
         <DropdownMenu isOpenDropDown={isOpenDropDown} menuItems={menuItems} />
